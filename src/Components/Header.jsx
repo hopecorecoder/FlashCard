@@ -4,16 +4,17 @@ export default function Header(){
             <header
             className="flex justify-around p-2 bg-[#1F2937] items-center f"
             >
-                <h1
-                className="font-bold text-3xl f text-[#F9FAF8]"
-                >Smart Study</h1>
+                <a
+                href=""
+                className=" delay-75 ease-in duration-200 hover:scale-120 font-bold text-3xl f text-[#F9FAF8] hover:text-gray-400 "
+                >Smart Study</a>
                 <ul
                 className="flex gap-4
-                 text-[#E5E7EB] list-none decoration-none hover:cursor-pointer f"
+                 text-[#E5E7EB] list-none decoration-none hover:cursor-pointer  f"
                 >
-                    <a><li>Header link one</li></a>
-                    <a><li>Header link two</li></a>
-                    <a><li>Header link three</li></a>
+                    <a className="hover:text-gray-400 delay-75 ease-in duration-200"><li>About us </li></a>
+                    <a className="hover:text-gray-400 delay-75 ease-in duration-200"><li>Our Plans</li></a>
+                    <a className="hover:text-gray-400 delay-75 ease-in duration-200"><li>Sign Up</li></a>
                 </ul>
             </header>
 
@@ -35,9 +36,9 @@ export default function Header(){
                         contrast
                     </p>
                     <button
-                    className="bg-[#3882F6] text-white font-bold px-4  py-1.5 w-[100px] rounded "
+                    className="bg-[#3882F6] hover:scale-120 delay-75 ease-in duration-200 hover:cursor-pointer hover:bg-[#0954ca] text-white font-bold px-4  py-1.5 w-[150px] rounded "
                     >
-                        Sign Up
+                        Get Started
                     </button>
                 </div>
                 <div

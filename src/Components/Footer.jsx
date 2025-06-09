@@ -3,7 +3,7 @@ export default function Footer(){
         <section
         className="bg-[#1F2937] h-[70px] flex items-center justify-center"
         >
-           <p className="text-white font-bold">Copyright © The Odin Project 2021</p>
+           <p className="text-white font-bold">Copyright ©  2025</p>
         </section>
     )
 }
