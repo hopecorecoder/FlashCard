@@ -1,16 +1,16 @@
-import Header from "./Components/Header"
-import Body from "./Components/Body"
-import Footer from "./Components/Footer"
+import Land from "./Land/Land.jsx"
+import Home from "./Home/Home.jsx"
 import './App.css'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   
   return (
-   <main>
-      <Header />
-      <Body />
-      <Footer />
-   </main>
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Land />} />
+      <Route path="/home" element={<Home />} />
+    </Routes>
+   </BrowserRouter>
   )
 }
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function Body(){
     return(
         <main>
@@ -14,42 +15,42 @@ export default function Body(){
                 className="flex flex-row gap-[60px] "
                 >
 
-                    <article className="flex w-[200px] flex-col ">
+                    <article className="flex w-[200px] flex-col hover:bg-[#76a9f9] delay-75 ease-in duration-200 p-5 rounded-2xl ">
                         <img
                         className="border-4 rounded-2xl w-[200px] border-[#3882F6]"
                         src="/orange.png" alt="orange" />
-                        <p className="text-[rgb(148,135,158)] text-center">this is some subtext
+                        <p className=" mt-5 text-[#575757]  text-center">this is some subtext
                         under an illustration
                         or Image
                         </p>
                     </article>
 
-                    <article className="flex w-[200px] flex-col  ">
+                    <article className="flex w-[200px] flex-col hover:bg-[#76a9f9] delay-75 ease-in duration-200 p-5 rounded-2xl  ">
                         <img
                         className="border-4 rounded-2xl w-[200px] border-[#3882F6]"
                         src="/orange.png" alt="orange" />
 
-                        <p className="text-[rgb(148,135,158)] text-center">this is some subtext
+                        <p className=" mt-5 text-[#575757]  text-center">this is some subtext
                         under an illustration
                         or Image
                         </p>
                     </article>
 
-                    <article className="flex w-[200px] flex-col ">
+                    <article className="flex w-[200px] flex-col hover:bg-[#76a9f9] delay-75 ease-in duration-200 p-5 rounded-2xl ">
                         <img
                         className="border-4 rounded-2xl w-[200px] border-[#3882F6]"
                         src="/orange.png" alt="orange" />
-                        <p className="text-[rgb(148,135,158)] text-center">this is some subtext
+                        <p className=" mt-5 text-[#575757]  text-center">this is some subtext
                         under an illustration
                         or Image
                         </p>
                     </article>
 
-                    <article className="flex w-[200px] flex-col ">
+                    <article className="flex w-[200px] flex-col hover:bg-[#76a9f9] delay-75 ease-in duration-200 p-5 rounded-2xl ">
                         <img
                         className="border-4 rounded-2xl w-[200px] border-[#3882F6]"
                         src="/orange.png" alt="orange" />
-                        <p className="text-[rgb(148,135,158)] text-center">this is some subtext
+                        <p className=" mt-5 text-[#575757]  text-center">this is some subtext
                         under an illustration
                         or Image
                         </p>
@@ -84,18 +85,20 @@ export default function Body(){
                         >
                             Call to action! It's time!  
                         </p>
+                        
                         <p
                         className="text-white text-lg"
                         >
                             Sign up for our product by clicking that button right over there!
                         </p>
                     </div>
-
-                    <button
-                    className="border-2 border-white rounded-xl font-bold text-white h-auto px-2 hover:cursor-pointer"
-                    >
-                        Sign up
-                    </button>
+                    <Link to="/Home" className="bg-[#3882F6] flex flex-row  ">
+                        <button
+                        className="border-2 border-white rounded-xl font-bold text-white h-auto px-2 hover:cursor-pointer hover:bg-white hover:text-[#3882F6] hover:border-[#afcdfb] delay-75 ease-in duration-200"
+                        >
+                            Sign up
+                        </button>
+                    </Link>    
                 </article>
             </section>
         </main>

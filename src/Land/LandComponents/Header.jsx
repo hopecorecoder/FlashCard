@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom"
 export default function Header(){
     return(
         <main className="flex flex-col bg-[#1F2937] justify-center gap-40 p-10 pb-40 ">
@@ -35,11 +37,13 @@ export default function Header(){
                         This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
                         contrast
                     </p>
-                    <button
-                    className="bg-[#3882F6] hover:scale-120 delay-75 ease-in duration-200 hover:cursor-pointer hover:bg-[#0954ca] text-white font-bold px-4  py-1.5 w-[150px] rounded "
-                    >
-                        Get Started
-                    </button>
+                    <Link to="/Home">
+                        <button
+                        className="bg-[#3882F6] hover:scale-120 delay-75 ease-in duration-200 hover:cursor-pointer hover:bg-[#0954ca] text-white font-bold px-4  py-1.5 w-[150px] rounded "
+                        >
+                            Get Started
+                        </button>
+                    </Link>
                 </div>
                 <div
                 
